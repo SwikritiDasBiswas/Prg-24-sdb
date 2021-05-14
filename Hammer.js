@@ -17,6 +17,7 @@ class Hammer {
     var angle = this.body.angle;
 
     push();
+    translate(pos.x,pos.y);
      rotate(angle);
     strokeWeight(3);
     stroke('orange')
